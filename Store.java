@@ -25,14 +25,14 @@ public class Store implements Building{
 
     public void printInfo()
     {
-        System.out.printf("The Store: '%s' located at %s has %d bedrooms, is %d square feet, and ", this.name, this.address, this.noRooms, this.sqFootage);
+        System.out.printf("The Store: '%s' located at %s has %d rooms, is %d square feet, and ", this.name, this.address, this.noRooms, this.sqFootage);
         if (this.parkingLot)
         {
-            System.out.println("has a parking lot");
+            System.out.println("has a parking lot.\n");
         }
         else
         {
-            System.out.println("does not have a parking lot.");
+            System.out.println("does not have a parking lot.\n");
         }
     } 
 }
